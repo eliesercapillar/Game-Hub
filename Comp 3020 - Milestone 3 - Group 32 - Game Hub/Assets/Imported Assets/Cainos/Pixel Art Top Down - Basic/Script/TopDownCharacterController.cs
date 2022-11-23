@@ -15,7 +15,6 @@ namespace Cainos.PixelArtTopDown_Basic
             animator = GetComponent<Animator>();
         }
 
-
         private void Update()
         {
             Vector2 dir = Vector2.zero;
