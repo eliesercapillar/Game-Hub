@@ -10,9 +10,15 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private Animator animator;
 
+        private Transform transform;
+
         private void Start()
         {
             animator = GetComponent<Animator>();
+            transform = this.GetComponent<Transform>();
+
+            float[] pos = SceneInfoPersist.loadPlayerLocation();
+            transform.position = new Vector3(pos[0], pos[1], 0);
         }
 
         private void Update()

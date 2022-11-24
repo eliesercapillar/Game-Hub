@@ -14,7 +14,10 @@ public class WizardDialogue : MonoBehaviour
     void Start()
     {
         textComponent.text = "";
-        StartWelcomeDialogue();
+        if (SceneInfoPersist.loadWizardDialogueState())
+        {
+            StartWelcomeDialogue();
+        }
     }
 
     void Update()
@@ -24,7 +27,7 @@ public class WizardDialogue : MonoBehaviour
             this.gameObject.SetActive(false);
         }
 
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0))
         {
             if (textComponent.text == lines[index])
             {
@@ -64,6 +67,7 @@ public class WizardDialogue : MonoBehaviour
         else
         {
             this.gameObject.SetActive(false);
+            SceneInfoPersist.saveWizardDialogueState(false);
         }
     }
 }

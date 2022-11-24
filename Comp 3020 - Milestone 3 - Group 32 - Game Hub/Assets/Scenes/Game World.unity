@@ -5470,7 +5470,7 @@ GameObject:
   - component: {fileID: 210291205}
   - component: {fileID: 210291204}
   m_Layer: 0
-  m_Name: Hut 7
+  m_Name: Hut Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6538,7 +6538,7 @@ GameObject:
   - component: {fileID: 266491109}
   - component: {fileID: 266491108}
   m_Layer: 0
-  m_Name: Hut 5
+  m_Name: Hut MOBA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12231,50 +12231,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
---- !u!1 &503497251
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 503497253}
-  - component: {fileID: 503497252}
-  m_Layer: 0
-  m_Name: Navigation Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &503497252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 503497251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccda290e7d779f246b43a4c4b1d72677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &503497253
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 503497251}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &503974726
 GameObject:
   m_ObjectHideFlags: 0
@@ -16684,7 +16640,7 @@ GameObject:
   - component: {fileID: 556381773}
   - component: {fileID: 556381772}
   m_Layer: 0
-  m_Name: Hut 3
+  m_Name: Hut RPG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33353,7 +33309,7 @@ GameObject:
   - component: {fileID: 996968278}
   - component: {fileID: 996968277}
   m_Layer: 0
-  m_Name: Hut 2
+  m_Name: Hut Build
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81588,7 +81544,7 @@ GameObject:
   - component: {fileID: 1217083169}
   - component: {fileID: 1217083168}
   m_Layer: 0
-  m_Name: Hut 4
+  m_Name: Hut FPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81955,7 +81911,7 @@ GameObject:
   - component: {fileID: 1233479714}
   - component: {fileID: 1233479713}
   m_Layer: 0
-  m_Name: Hut 9 (1)
+  m_Name: Hut VR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82370,7 +82326,7 @@ GameObject:
   - component: {fileID: 1255314694}
   - component: {fileID: 1255314693}
   m_Layer: 0
-  m_Name: Hut 8
+  m_Name: Hut Racing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86478,7 +86434,7 @@ GameObject:
   - component: {fileID: 1438664600}
   - component: {fileID: 1438664601}
   m_Layer: 0
-  m_Name: Hut 1
+  m_Name: Hut Arcade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87039,7 +86995,7 @@ GameObject:
   - component: {fileID: 1450638163}
   - component: {fileID: 1450638162}
   m_Layer: 0
-  m_Name: Hut 9
+  m_Name: Hut Sports
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95374,7 +95330,7 @@ GameObject:
   - component: {fileID: 1857003039}
   - component: {fileID: 1857003038}
   m_Layer: 0
-  m_Name: Hut 6
+  m_Name: Hut RTS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

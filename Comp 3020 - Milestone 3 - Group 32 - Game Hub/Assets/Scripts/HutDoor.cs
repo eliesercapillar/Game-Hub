@@ -21,16 +21,8 @@ public class HutDoor : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Debug.Log("IM AT A HUT DOOR");
-            prompt.SetActive(true);
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
             inTrigger = true;
+            prompt.SetActive(true);
         }
     }
 
