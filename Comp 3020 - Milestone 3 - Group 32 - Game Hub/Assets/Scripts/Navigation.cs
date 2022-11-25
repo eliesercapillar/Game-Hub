@@ -3,25 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Navigation : MonoBehaviour
+public static class Navigation
 {
     // RHS Buttons
 
     // LHS Buttons
-    public void summonWizard()
+    public static void summonWizard()
     {
 
     }
 
-    public void openBackpack()
+    public static void openBackpack()
     {
 
     }
 
-    public void logout()
-    {
-
-    }
 
     // Entering a hut
     public static void enterHut(string hutName)

@@ -9,10 +9,19 @@ namespace Cainos.PixelArtTopDown_Basic
         public float speed;
 
         private Animator animator;
+        private Transform playerTransform;
+        private Camera cam;
 
         private void Start()
         {
             animator = GetComponent<Animator>();
+            playerTransform = GetComponent<Transform>();
+            cam = Camera.main;
+            if (DataPersistency.hasStoredPlayerCoords())
+            {
+                float[] coords = DataPersistency.getPlayerCoords();
+                playerTransform.position = new Vector3(coords[0], coords[1], 0);
+            }
         }
 
         private void Update()
@@ -44,6 +53,15 @@ namespace Cainos.PixelArtTopDown_Basic
             animator.SetBool("IsMoving", dir.magnitude > 0);
 
             GetComponent<Rigidbody2D>().velocity = speed * dir;
+        }
+
+        public void recordPlayerCoords()
+        {
+            Vector3 playerPos = playerTransform.position;
+            Vector3 cameraPos = cam.GetComponent<Transform>().position;
+
+            DataPersistency.setPlayerCoords(playerPos.x, playerPos.y);
+            DataPersistency.setCameraCoords(cameraPos.x, cameraPos.y);
         }
     }
 }

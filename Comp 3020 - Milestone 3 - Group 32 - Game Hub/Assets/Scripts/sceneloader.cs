@@ -9,5 +9,6 @@ public class sceneloader : MonoBehaviour
     public void loadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        DataPersistency.setHutIndex(-1);
     }
 }
