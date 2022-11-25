@@ -9,8 +9,7 @@ public class Wizard : MonoBehaviour
 
     private GameObject currentDialogue;
 
-    private bool allDialoguesFinished = false;
-    private bool playingOptions = false;
+    private int nextDialogue = -1;
 
     void Awake()
     {
@@ -21,37 +20,46 @@ public class Wizard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentDialogue = dm.showDialogue(2);
-        StartCoroutine(startChatting());
+        nextDialogue = 2;
+        currentDialogue = dm.showDialogue(nextDialogue);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (allDialoguesFinished)
+        if (currentDialogue == null)
         {
-            controller.enabled = true;
-            currentDialogue = dm.showDialogue(3); //Play cya dialogue
-            Destroy(this.gameObject);
-        }
-    }
-
-    private IEnumerator startChatting()
-    {
-        while (!allDialoguesFinished)
-        {
-            if (currentDialogue == null && !playingOptions)
+            /*if (nextDialogue == 7)
             {
-                playingOptions = true;
-                dm.showDialogue(3);
+                controller.enabled = true;
+                currentDialogue = dm.showDialogue(nextDialogue);
+                Destroy(this.gameObject);
             }
 
-            yield return null;
+            else*/ if (nextDialogue == 2)
+            {
+                nextDialogue = 3;
+                currentDialogue = dm.showDialogue(nextDialogue);
+            }
+            else if (nextDialogue == 5)
+            {
+                currentDialogue = dm.showDialogue(nextDialogue);
+                nextDialogue = 6;
+            }
+            else if (nextDialogue == 7)
+            {
+                currentDialogue = dm.showDialogue(nextDialogue);
+                nextDialogue = 3;
+            }
+            else
+            {
+                currentDialogue = dm.showDialogue(nextDialogue) ;
+                nextDialogue = 7;
+            }
         }
     }
 
-    public void playDialogue(int i)
+    public void setNextDialogue(int i)
     {
-        dm.showDialogue(i);
+        nextDialogue = i;
     }
 }
