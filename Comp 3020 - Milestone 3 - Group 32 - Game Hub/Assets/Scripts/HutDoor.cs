@@ -6,6 +6,8 @@ public class HutDoor : MonoBehaviour
 {
     [SerializeField] private string hutGenre;
     [SerializeField] private GameObject prompt;
+    [SerializeField] private Cainos.PixelArtTopDown_Basic.TopDownCharacterController controller;
+    [SerializeField] private int hutIndex;
 
     private bool inTrigger = false;
 
@@ -13,6 +15,8 @@ public class HutDoor : MonoBehaviour
     {
         if (inTrigger && Input.GetKeyDown(KeyCode.Space))
         {
+            controller.recordPlayerCoords();
+            DataPersistency.setHutIndex(hutIndex);
             Navigation.enterHut(hutGenre);
         }
     }
@@ -21,18 +25,11 @@ public class HutDoor : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Debug.Log("IM AT A HUT DOOR");
+            inTrigger = true;
             prompt.SetActive(true);
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
-            inTrigger = true;
-        }
-    }
 
     private void OnTriggerExit2D(Collider2D collision)
     {

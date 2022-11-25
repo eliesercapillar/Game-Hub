@@ -10,7 +10,6 @@ public class WizardDialogue : MonoBehaviour
     [SerializeField] private float textSpeed;
 
     private int index;
-
     void Start()
     {
         textComponent.text = "";
@@ -24,7 +23,7 @@ public class WizardDialogue : MonoBehaviour
             this.gameObject.SetActive(false);
         }
 
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0))
         {
             if (textComponent.text == lines[index])
             {
@@ -63,7 +62,7 @@ public class WizardDialogue : MonoBehaviour
         }
         else
         {
-            this.gameObject.SetActive(false);
+            Destroy(this.gameObject);
         }
     }
 }

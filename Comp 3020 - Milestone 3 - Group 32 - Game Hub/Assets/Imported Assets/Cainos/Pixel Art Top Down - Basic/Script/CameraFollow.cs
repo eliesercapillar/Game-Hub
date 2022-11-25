@@ -19,6 +19,12 @@ namespace Cainos.PixelArtTopDown_Basic
             if (target == null) return;
 
             offset = transform.position - target.position;
+
+            if (DataPersistency.hasStoredPlayerCoords())
+            {
+                float[] coords = DataPersistency.getCameraCoords();
+                this.transform.position = new Vector3(coords[0], coords[1], 0);
+            }
         }
 
         private void Update()
