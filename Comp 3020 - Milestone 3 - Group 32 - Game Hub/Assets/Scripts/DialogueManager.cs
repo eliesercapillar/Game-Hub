@@ -10,13 +10,15 @@ public class DialogueManager : MonoBehaviour
     private bool inGameWorld;
     private bool inHut;
     private int hutIndex;
-    
+
+    private GameObject currentDialogue;
     void Awake()
     {
         inHut = DataPersistency.inHut();
         hutIndex = DataPersistency.getHutIndex();
-
         inGameWorld = !inHut;
+
+        currentDialogue = null;
     }
 
     void Start()
@@ -36,14 +38,22 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    private void showDialogue(int index)
+    public GameObject showDialogue(int index)
     {
-        GameObject dialogue = Instantiate(dialoguePrefabs[index]);
-        dialogue.GetComponent<Transform>().SetParent(parent);
+        if (currentDialogue != null)
+        {
+            Destroy(currentDialogue);
+            currentDialogue = null;
+        }
 
-        RectTransform dialogueTransform = dialogue.GetComponent<RectTransform>();
+        currentDialogue = Instantiate(dialoguePrefabs[index]);
+        currentDialogue.GetComponent<Transform>().SetParent(parent);
+
+        RectTransform dialogueTransform = currentDialogue.GetComponent<RectTransform>();
 
         dialogueTransform.anchoredPosition = new Vector2(0, 100);
+
+        return currentDialogue;
     }
 
     private IEnumerator waitOneSecond()

@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 5554643983459308415}
   - component: {fileID: 355820907}
   m_Layer: 5
-  m_Name: Wizard Help Dialogue
+  m_Name: Wizard Teleport Dialogue 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -493,11 +493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 5554643983695830600}
   lines:
-  - Did you forget what I told you before?
-  - No problem, I'll repeat it for you again.
-  - You can use the WASD Keys or the Arrow Keys to move around.
-  - When walking up to a Game Hut, press the Spacebar Key to enter that hut.
-  - If you're feeling lazy, I can also teleport you to huts or summon games for you.
+  - There you go!
   textSpeed: 0.05
 --- !u!1 &5554643983695830606
 GameObject:
