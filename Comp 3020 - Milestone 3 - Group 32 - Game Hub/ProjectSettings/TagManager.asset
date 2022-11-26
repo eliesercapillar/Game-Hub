@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wizard
   - summonWizardBtn
+  - Minimap
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Minimap
+  - Both
   - 
   - 
   - 
