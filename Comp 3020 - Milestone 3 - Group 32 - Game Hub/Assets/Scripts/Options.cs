@@ -27,14 +27,14 @@ public class Options : MonoBehaviour
 
     public void Option3()
     {
-        //wizard.setNextDialogue(6);
+        wizard.setNextDialogue(9);
         Destroy(this.gameObject);
         Debug.Log("Option 3");
     }
 
     public void Option4()
     {
-        //wizard.setNextDialogue(7);
+        wizard.setNextDialogue(-1);
         Destroy(this.gameObject);
         Debug.Log("Option 4");
     }

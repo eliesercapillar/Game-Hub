@@ -87494,6 +87494,7 @@ MonoBehaviour:
   - {fileID: 5554643983459308412, guid: 370ef99ef2338f04584fde351614b78f, type: 3}
   - {fileID: 5554643983459308412, guid: a1e2e4ced4ec8fb46b4957ebf9183f6a, type: 3}
   - {fileID: 5554643983459308412, guid: 60f1a1d10b218374f92c1da2f4d880a2, type: 3}
+  - {fileID: 5554643983459308412, guid: c3e081ac6ccd6c54db7bdb1017c7959e, type: 3}
   - {fileID: 5554643983459308412, guid: 19ef8453c2b6ef644ac9b389ebfbf67d, type: 3}
   - {fileID: 5554643983459308412, guid: 370ef99ef2338f04584fde351614b78f, type: 3}
   parent: {fileID: 82492646}
@@ -88942,7 +88943,7 @@ GameObject:
   - component: {fileID: 1547240446}
   m_Layer: 5
   m_Name: Summon Wizard Button
-  m_TagString: Untagged
+  m_TagString: summonWizardBtn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -63,5 +63,10 @@ namespace Cainos.PixelArtTopDown_Basic
             DataPersistency.setPlayerCoords(playerPos.x, playerPos.y);
             DataPersistency.setCameraCoords(cameraPos.x, cameraPos.y);
         }
+
+        public void setMoveAnim(bool b)
+        {
+            animator.SetBool("IsMoving", b);
+        }
     }
 }

@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Wizard : MonoBehaviour
 {
     private DialogueManager dm;
     private Cainos.PixelArtTopDown_Basic.TopDownCharacterController controller;
+    private Button btn;
 
     private GameObject currentDialogue;
 
@@ -16,6 +18,8 @@ public class Wizard : MonoBehaviour
         dm = GameObject.Find("Dialogue Manager").GetComponent<DialogueManager>();
         controller = GameObject.Find("Player").GetComponent<Cainos.PixelArtTopDown_Basic.TopDownCharacterController>();
         controller.enabled = false;
+        btn = GameObject.FindGameObjectWithTag("summonWizardBtn").GetComponent<Button>();
+        btn.interactable = false;
     }
     // Start is called before the first frame update
     void Start()
@@ -28,14 +32,17 @@ public class Wizard : MonoBehaviour
     {
         if (currentDialogue == null)
         {
-            /*if (nextDialogue == 7)
+            if (nextDialogue == 7 || nextDialogue == -1)
             {
                 controller.enabled = true;
-                currentDialogue = dm.showDialogue(nextDialogue);
+                btn.interactable = true;
+                if (nextDialogue == 7)
+                {
+                    currentDialogue = dm.showDialogue(nextDialogue);
+                }
                 Destroy(this.gameObject);
             }
-
-            else*/ if (nextDialogue == 2)
+            else if (nextDialogue == 2)
             {
                 nextDialogue = 3;
                 currentDialogue = dm.showDialogue(nextDialogue);
@@ -45,7 +52,7 @@ public class Wizard : MonoBehaviour
                 currentDialogue = dm.showDialogue(nextDialogue);
                 nextDialogue = 6;
             }
-            else if (nextDialogue == 7)
+            else if (nextDialogue == 8)
             {
                 currentDialogue = dm.showDialogue(nextDialogue);
                 nextDialogue = 3;
@@ -53,7 +60,7 @@ public class Wizard : MonoBehaviour
             else
             {
                 currentDialogue = dm.showDialogue(nextDialogue) ;
-                nextDialogue = 7;
+                nextDialogue = 8;
             }
         }
     }

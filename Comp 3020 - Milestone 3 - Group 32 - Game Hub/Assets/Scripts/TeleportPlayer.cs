@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 
 public class TeleportPlayer : MonoBehaviour
 {
     [SerializeField] private TMP_InputField input;
+    [SerializeField] private Image img;
 
     private Wizard wizard;
     private Transform player;
@@ -29,26 +31,39 @@ public class TeleportPlayer : MonoBehaviour
         {
             string text = input.text;
             int index = 0;
+            Debug.Log("Checking for hut: " + text);
             foreach (string name in hutNames)
             {
-                if (text == name.ToLower())
+                Debug.Log("Comparing: " + text + " to: " + name.ToLower());
+                if (text.ToLower() == name.ToLower())
                 {
                     telePlayer(index);
                     return;
                 }
                 index++;
             }
+            StartCoroutine(displayRed());
         }
+    }
+
+    private IEnumerator displayRed()
+    {
+        img.color = Color.red;
+        yield return new WaitForSeconds(0.5f);
+        img.color = Color.white;
     }
 
     private void telePlayer(int index)
     {
+        Debug.Log("Teleporting Player");
         player.position = hutCoords[index];
+        wizard.setNextDialogue(7);
+        Destroy(this.gameObject);
     }
 
     public void cancel()
     {
-        wizard.setNextDialogue(7);
+        wizard.setNextDialogue(8);
         Destroy(this.gameObject);
     }
 }
