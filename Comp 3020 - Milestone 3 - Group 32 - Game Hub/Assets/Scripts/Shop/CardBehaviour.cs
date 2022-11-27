@@ -6,8 +6,10 @@ using UnityEngine.SceneManagement;
 public class CardBehaviour : MonoBehaviour
 {
     public ShopItemSO item;
+
     public void moreDetails()
     {
+        Debug.Log("Setting playerpref: " + item.title);
         DataPersistency.setItemToShowDetailFor(item.title);
         DataPersistency.setTheItemGenre(item.genre);
         SceneManager.LoadScene("ITEM DETAIL");
@@ -15,7 +17,7 @@ public class CardBehaviour : MonoBehaviour
 
     public void addToBag()
     {
-
+        Backpack.instance.addToBag(item);
     }
 
     public void setSO(ShopItemSO so)

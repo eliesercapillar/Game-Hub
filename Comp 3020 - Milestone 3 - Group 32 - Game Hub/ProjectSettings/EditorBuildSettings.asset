@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Huts/ARCADE SHOP MENU.unity
     guid: e2920f4f461d4b043a9319e464bfa794
+  - enabled: 1
+    path: Assets/Scenes/BACKPACK.unity
+    guid: c092db5e9e2b815468f01c1d2a0e7a74
   m_configObjects: {}

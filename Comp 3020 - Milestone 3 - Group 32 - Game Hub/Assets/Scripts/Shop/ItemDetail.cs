@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor;
 using TMPro;
 using UnityEngine.SceneManagement;
 
@@ -16,14 +17,22 @@ public class ItemDetail : MonoBehaviour
 
     public ShopItemSO item;
 
+    public SOso allSOs;
+
+
     void Awake()
     {
         string title = DataPersistency.getItemToShowDetailFor();
+        Debug.Log("Retrieving Playerpref: " + title);
 
-        foreach (ShopItemSO so in Resources.FindObjectsOfTypeAll<ShopItemSO>())
+        Debug.Log(Resources.FindObjectsOfTypeAll<ShopItemSO>().Length);
+        foreach (ShopItemSO so in allSOs.shopItems)
         {
+            Debug.Log("comparing " + title + " to " + so.title);
             if (title == so.title)
             {
+                Debug.Log("Title is: " + title);
+                Debug.Log("so Title is " + so.title);
                 item = so;
                 return;
             }
@@ -39,6 +48,7 @@ public class ItemDetail : MonoBehaviour
     public void populateScreen()
     {
         coverArt.sprite = item.art2;
+        Debug.Log(item.title);
         titleTxt.text = item.title;
         rating.sprite = item.rating;
         price.text = "$" + item.price;
@@ -47,7 +57,8 @@ public class ItemDetail : MonoBehaviour
 
     public void addToBag()
     {
-        Debug.Log("Added to bag");
+        Debug.Log("Added to backpack");
+        Backpack.instance.addToBag(item);
     }
 
     public void goBack()
