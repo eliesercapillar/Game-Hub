@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 3
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: Expect to Die 2
+  price: 49.99
+  art: {fileID: 21300000, guid: 2adf2dc34e84e81489cc21e11e1d5584, type: 3}
+  art2: {fileID: 21300000, guid: 3b4cfd046f4ded847bffb4b10a9d7546, type: 3}
+  rating: {fileID: 29095515, guid: a46ed543c75bb894bb2f937c1398f600, type: 3}
+  description: Become an elite super spy ready for espionage, explosives, and gadgets
+    galore. This popular escape-the-room VR franchise is back with more ingenious
+    puzzles, cunning villains, and dangerous locales.
+  genre: PUZZLE

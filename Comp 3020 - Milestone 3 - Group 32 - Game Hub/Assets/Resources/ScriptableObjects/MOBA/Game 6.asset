@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 6
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: League of Legends
+  price: 9999.99
+  art: {fileID: 21300000, guid: 649f5697909dd8f489131a7b625505aa, type: 3}
+  art2: {fileID: 21300000, guid: 3ba9886b0c38ae04caeb8f31ad64aaf0, type: 3}
+  rating: {fileID: -717610131, guid: 54cc12735a7de0842ab958863d80c195, type: 3}
+  description: League of Legendsis a Multiplayer Online Battle Arena (MOBA) that
+    blends the speed and intensity of an RTS with RPG elements. Two teams of powerful
+    champions, each with unique designs and play styles, battle head-to-head across
+    multiple maps and game modes. With an ever-expanding roster of champions, frequent
+    updates, and a thriving tournament scene, League of Legends offers endless replay-ability
+    for players of every skill level.
+  genre: MOBA

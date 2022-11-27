@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 4
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: DiRT Rally 2.0
+  price: 21.99
+  art: {fileID: 21300000, guid: f1170bdb576e80f44a58b3276a48470b, type: 3}
+  art2: {fileID: 21300000, guid: d53636c3102c8f84685d1a135d70d916, type: 3}
+  rating: {fileID: 679213721, guid: c8612f97afc1c3f42ab7a37aa1adbe50, type: 3}
+  description: DiRT Rally 2.0 dares you to carve your way through a selection of
+    iconic rally locations from across the globe, in the most powerful off-road vehicles
+    ever made, knowing that the smallest mistake could end your stage.
+  genre: RACING

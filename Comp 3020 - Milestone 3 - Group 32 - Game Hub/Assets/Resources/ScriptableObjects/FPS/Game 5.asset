@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Game 5
   m_EditorClassIdentifier: 
   title: Modern Warfare 2 2022
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  price: 69.99
+  art: {fileID: 21300000, guid: 1db52528dd9fc4b4089e12f69f04f212, type: 3}
+  art2: {fileID: 21300000, guid: 8bc7eec7eb6a45a4a855f49328483163, type: 3}
+  rating: {fileID: 679213721, guid: c8612f97afc1c3f42ab7a37aa1adbe50, type: 3}
+  description: "Call of Duty\xAE: Modern Warfare\xAE II drops players into an unprecedented
+    global conflict that features the return of the iconic Operators of Task Force
+    141."
+  genre: FPS

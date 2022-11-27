@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 3
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: CarX
+  price: 49.99
+  art: {fileID: 21300000, guid: 8985e839c24231d44b41557fa68cd1e9, type: 3}
+  art2: {fileID: 21300000, guid: 78decdeae0a03b348a86a5a415608f71, type: 3}
+  rating: {fileID: -3638538, guid: c4463fcd66f3aa4459794dd80aa9df8b, type: 3}
+  description: CarX Drift Racing Online is your chance to immerse yourself in the
+    real world of drifting. Get together with friends, tune your car and burn some
+    tires!
+  genre: RACING

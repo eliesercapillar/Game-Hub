@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 8
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: Syberia
+  price: 49.99
+  art: {fileID: 21300000, guid: 1fa9e36ff2c9f8249b50623f1e40146a, type: 3}
+  art2: {fileID: 21300000, guid: 34fafb9028d38484c9c4c710baacd830, type: 3}
+  rating: {fileID: 29095515, guid: a46ed543c75bb894bb2f937c1398f600, type: 3}
+  description: Embark on a quest for identity through time, as you piece together
+    the puzzle of two lives.
+  genre: PUZZLE

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 4
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: Influent
+  price: 69.83
+  art: {fileID: 21300000, guid: 2febe6a7a8984744da5e05bac81f6945, type: 3}
+  art2: {fileID: 21300000, guid: 7afd0587da489524d81dbb2e654833c4, type: 3}
+  rating: {fileID: 29095515, guid: a46ed543c75bb894bb2f937c1398f600, type: 3}
+  description: Influent is a Language Learning Game focused on vocabulary acquisition
+    and pronunciation that gives players the freedom to choose the words they want
+    to learn without the need for pencils or books!
+  genre: PUZZLE

@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 7
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: Destiny 2
+  price: 34.99
+  art: {fileID: 21300000, guid: 801ab947f89cd464fad5e3060aa66ab9, type: 3}
+  art2: {fileID: 21300000, guid: 238cb20882e1ca047a3660df530fad2e, type: 3}
+  rating: {fileID: -3638538, guid: c4463fcd66f3aa4459794dd80aa9df8b, type: 3}
+  description: Destiny 2 is an action MMO with a single evolving world that you and
+    your friends can join anytime, anywhere, absolutely free.
+  genre: FPS

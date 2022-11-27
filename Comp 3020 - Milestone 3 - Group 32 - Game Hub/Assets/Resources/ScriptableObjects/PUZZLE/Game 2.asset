@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 2
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: Escape Simulator
+  price: 32.99
+  art: {fileID: 21300000, guid: ca70898746516ed4188ef362e0a36a72, type: 3}
+  art2: {fileID: 21300000, guid: 0a8ed7e9c02c3b74a838c78ce31a5ac4, type: 3}
+  rating: {fileID: -1726212673, guid: 35dc4063f25548f448d4d1939efd036d, type: 3}
+  description: First-person puzzler you can play solo or in an online co-op (best
+    with 2-3 players, but playable with more). Explore a set of highly interactive
+    escape rooms. Move furniture, pick up and examine everything, smash pots and
+    break locks! Supports community rooms through the level editor.
+  genre: PUZZLE
