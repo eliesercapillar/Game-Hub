@@ -11,6 +11,7 @@ public class sceneloader : MonoBehaviour
     {
         Screen.SetResolution(1280, 720, true);
     }
+
     public void loadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);

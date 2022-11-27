@@ -702,6 +702,46 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4008398207884627480, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4008398207884627480, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4008398207884627480, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4008398207532629925}
+    - target: {fileID: 4008398207884627480, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4008398207884627480, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: openBag
+      objectReference: {fileID: 0}
+    - target: {fileID: 4008398207884627480, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OpenBag2, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4008398207884627480, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ARCADE SHOP MENU
+      objectReference: {fileID: 0}
+    - target: {fileID: 4008398207884627480, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4008398207884627481, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -939,3 +979,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fe1af8a93c99084baf0b24b4d7f4857, type: 3}
+--- !u!1 &4008398207532629924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4008398207884627482, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+    type: 3}
+  m_PrefabInstance: {fileID: 4008398207532629923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4008398207532629925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008398207532629924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28cffb83d7ba47244b2aa070205b35e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
