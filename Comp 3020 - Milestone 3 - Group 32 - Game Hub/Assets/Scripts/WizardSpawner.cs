@@ -89,7 +89,6 @@ public class WizardSpawner : MonoBehaviour
     private void spawnWizard(Vector3 spawnCoords)
     {
         Instantiate(wizard, spawnCoords, Quaternion.identity);
-        //player.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
-        //player.gameObject.GetComponent<Cainos.PixelArtTopDown_Basic.TopDownCharacterController>().setMoveAnim(false);
+        player.gameObject.GetComponent<Cainos.PixelArtTopDown_Basic.TopDownCharacterController>().isMovable(false);
     }
 }

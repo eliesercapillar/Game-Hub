@@ -66,4 +66,14 @@ public static class DataPersistency
     {
         return PlayerPrefs.GetInt("CurrentHut") > 0;
     }
+
+    public static void setHutDialogueState()
+    {
+
+    }
+
+    public static int getHutDialogueState()
+    {
+        return 0;
+    }
 }

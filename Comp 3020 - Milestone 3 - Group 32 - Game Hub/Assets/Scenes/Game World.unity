@@ -5578,7 +5578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hutGenre: Puzzle
   prompt: {fileID: 1428538078}
-  controller: {fileID: 0}
+  controller: {fileID: 1463313146}
   hutIndex: 7
 --- !u!61 &210291205
 BoxCollider2D:
@@ -6070,14 +6070,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 380337071}
+  - {fileID: 1379951074}
   m_Father: {fileID: 135986421}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &246107019
 MonoBehaviour:
@@ -6660,7 +6660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hutGenre: MOBA
   prompt: {fileID: 1428538078}
-  controller: {fileID: 0}
+  controller: {fileID: 1463313146}
   hutIndex: 5
 --- !u!61 &266491109
 BoxCollider2D:
@@ -9541,82 +9541,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3cc2373308c11848977b28d974a9de0, type: 3}
---- !u!1 &380337070
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 380337071}
-  - component: {fileID: 380337073}
-  - component: {fileID: 380337072}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &380337071
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 380337070}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 246107018}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &380337072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 380337070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4366f3c80627b9740972a2c18ac40c06, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &380337073
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 380337070}
-  m_CullTransparentMesh: 1
 --- !u!1001 &380862895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16991,7 +16915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hutGenre: RPG
   prompt: {fileID: 1428538078}
-  controller: {fileID: 0}
+  controller: {fileID: 1463313146}
   hutIndex: 3
 --- !u!61 &556381773
 BoxCollider2D:
@@ -19868,7 +19792,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726090151
 MonoBehaviour:
@@ -33752,7 +33676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hutGenre: Build
   prompt: {fileID: 1428538078}
-  controller: {fileID: 0}
+  controller: {fileID: 1463313146}
   hutIndex: 2
 --- !u!61 &996968278
 BoxCollider2D:
@@ -82112,7 +82036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hutGenre: FPS
   prompt: {fileID: 1428538078}
-  controller: {fileID: 0}
+  controller: {fileID: 1463313146}
   hutIndex: 4
 --- !u!61 &1217083169
 BoxCollider2D:
@@ -82481,7 +82405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hutGenre: VR
   prompt: {fileID: 1428538078}
-  controller: {fileID: 0}
+  controller: {fileID: 1463313146}
   hutIndex: 10
 --- !u!61 &1233479714
 BoxCollider2D:
@@ -82898,7 +82822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hutGenre: Racing
   prompt: {fileID: 1428538078}
-  controller: {fileID: 0}
+  controller: {fileID: 1463313146}
   hutIndex: 8
 --- !u!61 &1255314694
 BoxCollider2D:
@@ -85578,6 +85502,82 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1379573950}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1379951073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1379951074}
+  - component: {fileID: 1379951076}
+  - component: {fileID: 1379951075}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1379951074
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379951073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.75, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 246107018}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1379951075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379951073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 180a04dd79728d34abbd8accd52e0b09, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1379951076
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379951073}
+  m_CullTransparentMesh: 1
 --- !u!4 &1380378121 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: a0a71fda412ad0941ab44f1732ea4c1e,
@@ -87078,7 +87078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hutGenre: Arcade
   prompt: {fileID: 1428538078}
-  controller: {fileID: 0}
+  controller: {fileID: 1463313146}
   hutIndex: 1
 --- !u!1001 &1440230254
 PrefabInstance:
@@ -87615,7 +87615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hutGenre: Sports
   prompt: {fileID: 1428538078}
-  controller: {fileID: 0}
+  controller: {fileID: 1463313146}
   hutIndex: 9
 --- !u!61 &1450638163
 BoxCollider2D:
@@ -89936,7 +89936,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1547240443
 MonoBehaviour:
@@ -96338,7 +96338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hutGenre: RTS
   prompt: {fileID: 1428538078}
-  controller: {fileID: 0}
+  controller: {fileID: 1463313146}
   hutIndex: 6
 --- !u!61 &1857003039
 BoxCollider2D:
@@ -98276,7 +98276,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4bc5607f5699e1e44b7944bcd20cbfe4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 82995382a0b195b47b5dc15866bee430, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
