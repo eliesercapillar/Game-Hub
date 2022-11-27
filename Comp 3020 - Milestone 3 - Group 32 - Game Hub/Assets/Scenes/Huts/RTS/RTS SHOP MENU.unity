@@ -520,8 +520,68 @@ PrefabInstance:
     - target: {fileID: 4008398207634687221, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
         type: 3}
       propertyPath: shopItemsSO.Array.size
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4008398207634687221, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: shopItemsSO.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2dc61782964eaa34aa7cae0d350fa158,
+        type: 2}
+    - target: {fileID: 4008398207634687221, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: shopItemsSO.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 76c076a18ad8f6941b4a0be66c2b3d60,
+        type: 2}
+    - target: {fileID: 4008398207634687221, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: shopItemsSO.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1091c9e8183a7c24a9f13b0849cdfe8e,
+        type: 2}
+    - target: {fileID: 4008398207634687221, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: shopItemsSO.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: b466a8831c32f2b429f8f7912e471882,
+        type: 2}
+    - target: {fileID: 4008398207634687221, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: shopItemsSO.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: b68c780be39f2074a8e5267b1b4a5d54,
+        type: 2}
+    - target: {fileID: 4008398207634687221, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: shopItemsSO.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: d0af3666a7225b743a89dacb0125d624,
+        type: 2}
+    - target: {fileID: 4008398207634687221, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: shopItemsSO.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 00f4d990f5c081d44b899f907f271f12,
+        type: 2}
+    - target: {fileID: 4008398207634687221, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: shopItemsSO.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8d051a3a0313dbd4fa16c2be2ec24fba,
+        type: 2}
+    - target: {fileID: 4008398207634687221, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: shopItemsSO.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: cf2e91c4b6063e748a5556da91cf3ebb,
+        type: 2}
+    - target: {fileID: 4008398207634687221, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
+        type: 3}
+      propertyPath: shopItemsSO.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: d39892db735cf0c41a4d6fb5bdde9f86,
+        type: 2}
     - target: {fileID: 4008398207655024844, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -620,7 +680,7 @@ PrefabInstance:
     - target: {fileID: 4008398207884627480, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: VR SHOP MENU
+      value: RTS SHOP MENU
       objectReference: {fileID: 0}
     - target: {fileID: 4008398207884627480, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
         type: 3}
@@ -740,7 +800,7 @@ PrefabInstance:
     - target: {fileID: 4008398208504316444, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
         type: 3}
       propertyPath: m_text
-      value: FACEBOOK META VR SHOP
+      value: SMART PEOPLE ONLY RTS SHOP
       objectReference: {fileID: 0}
     - target: {fileID: 4008398208555360031, guid: 2fe1af8a93c99084baf0b24b4d7f4857,
         type: 3}

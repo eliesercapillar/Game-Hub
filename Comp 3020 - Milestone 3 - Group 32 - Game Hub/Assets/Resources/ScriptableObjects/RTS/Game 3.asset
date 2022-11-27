@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 3
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: Judgment
+  price: 19.99
+  art: {fileID: 21300000, guid: a79039e4b95bfc64dba019cc05288261, type: 3}
+  art2: {fileID: 21300000, guid: ee91282e77ee44748a09cb33b54c491c, type: 3}
+  rating: {fileID: -1797947698, guid: 3d413c23664c8e747899d8d017022270, type: 3}
+  description: Fight for the truth and uncover the twisted crime running deep beneath
+    the surface of Tokyo. In this legal thriller, the balance between justice and
+    mercy teeters on the edge.
+  genre: RTS

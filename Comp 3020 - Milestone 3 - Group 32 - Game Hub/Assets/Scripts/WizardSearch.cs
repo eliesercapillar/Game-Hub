@@ -30,6 +30,8 @@ public class WizardSearch : MonoBehaviour
 
             GOs.Add(element);
 
+            element.GetComponent<CardBehaviour>().setSO(so);
+
             ShopTemplate sT = element.GetComponent<ShopTemplate>();
 
             sT.titleTxt.text = so.title;

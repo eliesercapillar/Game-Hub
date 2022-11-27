@@ -18,10 +18,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Game World.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Huts/RPG.unity
+    path: Assets/Scenes/Huts/RPG/RPG.unity
     guid: 2fa2a81cfcdc2164aab688056c232362
   - enabled: 1
-    path: Assets/Scenes/Huts/RPG SHOP MENU.unity
+    path: Assets/Scenes/Huts/RPG/RPG SHOP MENU.unity
     guid: dfad6bf639e0b2b45992522e9c3d5677
   - enabled: 1
     path: Assets/Scenes/Huts/ITEM DETAIL.unity
@@ -56,4 +56,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Huts/FPS/FPS SHOP MENU.unity
     guid: 710e1b84c4e0d804ea35f44a0732ffa6
+  - enabled: 1
+    path: Assets/Scenes/Huts/VR/VR SHOP MENU.unity
+    guid: c846090d429dc9042b980ebe83a48a24
+  - enabled: 1
+    path: Assets/Scenes/Huts/VR/VR.unity
+    guid: ebb14000c7e5d724687f946ce827cad4
+  - enabled: 1
+    path: Assets/Scenes/Huts/RACING/RACING SHOP MENU.unity
+    guid: c840732b4758c514486475181f91d379
+  - enabled: 1
+    path: Assets/Scenes/Huts/RACING/RACING.unity
+    guid: 6520d88bbb98b4a41bf53be033f2c547
+  - enabled: 1
+    path: Assets/Scenes/Huts/RTS/RTS.unity
+    guid: 6680836f896399c4cb10b44df2ecde56
+  - enabled: 1
+    path: Assets/Scenes/Huts/SPORTS/SPORTS SHOP MENU.unity
+    guid: 81a438fb155d4434595e60ea9a983f8b
+  - enabled: 1
+    path: Assets/Scenes/Huts/SPORTS/SPORTS.unity
+    guid: 9641978c8417d78428725c83a4b7fe2e
+  - enabled: 1
+    path: Assets/Scenes/Huts/RTS/RTS SHOP MENU.unity
+    guid: bd68100ac8923bc46ae83cac88bdc0be
+  - enabled: 1
+    path: Assets/Scenes/Huts/PUZZLE/PUZZLE SHOP MENU.unity
+    guid: c733d8409d51134438df87f653689994
+  - enabled: 1
+    path: Assets/Scenes/Huts/PUZZLE/PUZZLE.unity
+    guid: 0f986071c07c9ca4e8bc0e14cc8d3df8
   m_configObjects: {}

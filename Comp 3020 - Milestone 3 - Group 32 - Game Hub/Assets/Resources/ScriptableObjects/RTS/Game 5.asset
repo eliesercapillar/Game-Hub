@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 5
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: Multiversus
+  price: 32.99
+  art: {fileID: 21300000, guid: f546527463d6b6b4fa81e0cc8c944b81, type: 3}
+  art2: {fileID: 21300000, guid: a0770af83e27eac44a9d431073d0f7b9, type: 3}
+  rating: {fileID: 29095515, guid: a46ed543c75bb894bb2f937c1398f600, type: 3}
+  description: Multiversus is a free-to-play platform fighter that lets you team
+    up with your friends using some of the most iconic characters including Batman,
+    Shaggy, & more!
+  genre: RTS
