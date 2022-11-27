@@ -66,4 +66,38 @@ public static class DataPersistency
     {
         return PlayerPrefs.GetInt("CurrentHut") > 0;
     }
+
+    /*public static void setHutDialogueState()
+    {
+
+    }
+
+    public static int getHutDialogueState()
+    {
+        return 0;
+    } */
+
+    public static void setItemToShowDetailFor(string s)
+    {
+        Debug.Log("Setting Item");
+        PlayerPrefs.SetString("ItemToShowDetailFor", s);
+    }
+
+    public static string getItemToShowDetailFor()
+    {
+        Debug.Log("Getting Item");
+        return PlayerPrefs.GetString("ItemToShowDetailFor");
+    }
+
+    public static void setTheItemGenre(string s)
+    {
+        Debug.Log("Setting Genre");
+        PlayerPrefs.SetString("TheItemGenre", s);
+    }
+
+    public static string getTheItemGenre()
+    {
+        Debug.Log("Getting Genre:");
+        return PlayerPrefs.GetString("TheItemGenre");
+    }
 }

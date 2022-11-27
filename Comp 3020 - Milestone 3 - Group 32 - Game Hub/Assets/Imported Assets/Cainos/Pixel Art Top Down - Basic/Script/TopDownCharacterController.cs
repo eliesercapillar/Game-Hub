@@ -12,8 +12,8 @@ namespace Cainos.PixelArtTopDown_Basic
         private Transform playerTransform;
         private Camera cam;
 
-        private bool horizontalKeyPressed;
-        private bool verticalKeyPressed;
+        private bool canMove = true;
+
         private void Start()
         {
             animator = GetComponent<Animator>();
@@ -28,34 +28,42 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void Update()
         {
-            Vector2 dir = Vector2.zero;
-            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            if (canMove)
             {
-                dir.x = -1;
-                animator.SetInteger("Direction", 3);
-            }
-            else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-            {
-                dir.x = 1;
-                animator.SetInteger("Direction", 2);        
-            }
+                Vector2 dir = Vector2.zero;
+                if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+                {
+                    dir.x = -1;
+                    animator.SetInteger("Direction", 3);
+                }
+                else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+                {
+                    dir.x = 1;
+                    animator.SetInteger("Direction", 2);        
+                }
 
-            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
-            {
-                dir.y = 1;
-                animator.SetInteger("Direction", 1);
-            }
-            else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-            {
-                dir.y = -1;
-                animator.SetInteger("Direction", 0);
-            }
+                if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+                {
+                    dir.y = 1;
+                    animator.SetInteger("Direction", 1);
+                }
+                else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+                {
+                    dir.y = -1;
+                    animator.SetInteger("Direction", 0);
+                }
 
-            dir.Normalize();
-            
+                dir.Normalize();
 
-            GetComponent<Rigidbody2D>().velocity = speed * dir;
-            animator.SetBool("isMoving", (dir.magnitude > 0));
+                //Debug.Log("BAUDY MOVIN");
+                GetComponent<Rigidbody2D>().velocity = speed * dir;
+                animator.SetBool("isMoving", (dir.magnitude > 0));
+            }
+            /*else
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
+                animator.SetBool("isMoving", (dir.magnitude > 0));
+            }*/
         }
 
         public void recordPlayerCoords()
@@ -65,6 +73,11 @@ namespace Cainos.PixelArtTopDown_Basic
 
             DataPersistency.setPlayerCoords(playerPos.x, playerPos.y);
             DataPersistency.setCameraCoords(cameraPos.x, cameraPos.y);
+        }
+
+        public void isMovable(bool b)
+        {
+            canMove = b;
         }
     }
 }

@@ -18,6 +18,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Game World.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/RPG.unity
+    path: Assets/Scenes/Huts/RPG.unity
     guid: 2fa2a81cfcdc2164aab688056c232362
+  - enabled: 1
+    path: Assets/Scenes/Huts/RPG SHOP MENU.unity
+    guid: dfad6bf639e0b2b45992522e9c3d5677
+  - enabled: 1
+    path: Assets/Scenes/Huts/ITEM DETAIL.unity
+    guid: 5e5cb15cf7442834296dc0a3ba838bf8
+  - enabled: 1
+    path: Assets/Scenes/Huts/ARCADE.unity
+    guid: e6b1bdcb2a7f43441a794dad84d7a5cd
+  - enabled: 1
+    path: Assets/Scenes/Huts/ARCADE SHOP MENU.unity
+    guid: e2920f4f461d4b043a9319e464bfa794
   m_configObjects: {}

@@ -34,6 +34,7 @@ public class Wizard : MonoBehaviour
         {
             if (nextDialogue == 7 || nextDialogue == -1)
             {
+                controller.isMovable(true);
                 controller.enabled = true;
                 btn.interactable = true;
                 if (nextDialogue == 7)

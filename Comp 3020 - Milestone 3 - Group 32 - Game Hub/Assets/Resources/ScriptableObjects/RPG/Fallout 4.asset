@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Fallout 4
+  m_EditorClassIdentifier: 
+  title: Fallout 4
+  price: 0.99
+  art: {fileID: 21300000, guid: a0ca76d83a0cdfd42b66d80919a99a74, type: 3}
+  art2: {fileID: 21300000, guid: ed9493c5d889e2a4180b3b3df645f5ff, type: 3}
+  rating: {fileID: -1726212673, guid: 35dc4063f25548f448d4d1939efd036d, type: 3}
+  description: "Bethesda Game Studios, the award-winning creators of Fallout 3 and
+    The Elder Scrolls V: Skyrim, welcome you to the world of Fallout 4 \u2013their
+    most ambitious game ever, and the next generation of open-world gaming."
+  genre: RPG
