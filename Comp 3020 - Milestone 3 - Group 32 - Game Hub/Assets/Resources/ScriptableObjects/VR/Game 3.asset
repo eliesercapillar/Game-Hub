@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 3
+  m_EditorClassIdentifier: 
+  title: Farm sim 19
+  price: 59.99
+  art: {fileID: 21300000, guid: 437dac6c6cff35f41943b984ea2e1b1d, type: 3}
+  art2: {fileID: 21300000, guid: 61617ee8c5f444f4ba100958a8464021, type: 3}
+  rating: {fileID: -1726212673, guid: 35dc4063f25548f448d4d1939efd036d, type: 3}
+  description: The best - selling franchise takes a giant leap forward with a complete
+    overhaul of the graphics engine, offering the most striking and immersive visuals
+    and effects, along with the deepest and most complete farming experi ence ever.
+  genre: VR

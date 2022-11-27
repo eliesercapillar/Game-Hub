@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 8
+  m_EditorClassIdentifier: 
+  title: Tekken 7
+  price: 15.99
+  art: {fileID: 21300000, guid: 6e23fdc44ac1ecb46bde0be5d647c10d, type: 3}
+  art2: {fileID: 21300000, guid: 905defefe48e00749bac86200e390e33, type: 3}
+  rating: {fileID: -388719047, guid: a8b73d17e85f6a749ab76e39ee856890, type: 3}
+  description: 'Discover the epic conclusion of the long-time clan warfare between
+    members of the Mishima family. Powered by Unreal Engine 4, the legendary fighting
+    game franchise fights back with stunning story-driven cinematic battles and intense
+    duels that can be enjoyed with friends and rivals. '
+  genre: RTS

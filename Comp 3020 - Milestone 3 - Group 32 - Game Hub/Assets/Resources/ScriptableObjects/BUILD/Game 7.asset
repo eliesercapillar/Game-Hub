@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 7
+  m_EditorClassIdentifier: 
+  title: Rimworld
+  price: 99.99
+  art: {fileID: 21300000, guid: fb17b5556b60e654db76239029fd4dbc, type: 3}
+  art2: {fileID: 21300000, guid: 003325f0af81d4441a40ffd55d0e4c91, type: 3}
+  rating: {fileID: -320969420, guid: 49467f8c99d7ffe48bb74f2d58f859c5, type: 3}
+  description: A sci-fi colony sim driven by an intelligent AI storyteller. Generates
+    stories by simulating psychology, ecology, gunplay, melee combat, climate, biomes,
+    diplomacy, interpersonal relationships, art, medicine, trade, and more.
+  genre: BUILD

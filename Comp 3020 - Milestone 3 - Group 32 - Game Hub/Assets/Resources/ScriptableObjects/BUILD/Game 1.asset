@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 1
+  m_EditorClassIdentifier: 
+  title: 7 Days to Die
+  price: 29.99
+  art: {fileID: 21300000, guid: 5fedf67c507734d48a15a5c9f1420f77, type: 3}
+  art2: {fileID: 21300000, guid: 200c13488175fab44813ef17fcc08ffc, type: 3}
+  rating: {fileID: 679213721, guid: c8612f97afc1c3f42ab7a37aa1adbe50, type: 3}
+  description: 7 Days to Die is an open-world game that is a unique combination of
+    first-person shooter, survival horror, tower defense, and role-playing games.
+    Play the definitive zombie survival sandbox RPG that came first. Navezgane awaits!
+  genre: BUILD

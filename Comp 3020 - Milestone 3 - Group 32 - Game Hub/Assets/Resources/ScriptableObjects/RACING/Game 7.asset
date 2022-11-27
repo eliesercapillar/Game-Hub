@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 7
+  m_EditorClassIdentifier: 
+  title: Forza Horizon 5
+  price: 21.99
+  art: {fileID: 21300000, guid: e65a8646f022c6f46bcc7c0da236142d, type: 3}
+  art2: {fileID: 21300000, guid: fed9dc7e2847fda40b789f41ec3c633b, type: 3}
+  rating: {fileID: 679213721, guid: c8612f97afc1c3f42ab7a37aa1adbe50, type: 3}
+  description: "Your Ultimate Horizon Adventure awaits! Explore the vibrant open
+    world landscapes of Mexico with limitless, fun driving action in the world\u2019s
+    greatest cars. Blast off to Hot Wheels Park and experience the most extreme tracks
+    ever devised. Requires Forza Horizon 5 game, expansion sold separately."
+  genre: RACING

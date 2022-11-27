@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 10
+  m_EditorClassIdentifier: 
+  title: Unpacking
+  price: 23.99
+  art: {fileID: 21300000, guid: 6df57c39e8337f94a94eb336ad9cd032, type: 3}
+  art2: {fileID: 21300000, guid: 6b9d76892a2e21145ba840ef88d5208b, type: 3}
+  rating: {fileID: 1852388348, guid: 708df62a399cafc42b1e144478152202, type: 3}
+  description: "Unpacking is a zen puzzle game about the familiar experience of pulling
+    possessions out of boxes and fitting them into a new home. Part block-fitting
+    puzzle, part home decoration, you are invited to create a satisfying living space
+    while learning clues about the life you\u2019re unpacking."
+  genre: PUZZLE

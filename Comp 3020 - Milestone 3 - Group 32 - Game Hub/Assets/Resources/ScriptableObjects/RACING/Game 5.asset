@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 5
+  m_EditorClassIdentifier: 
+  title: F1 2020
+  price: 46.99
+  art: {fileID: 21300000, guid: a532b2c2858ddd243aa87462a1957333, type: 3}
+  art2: {fileID: 21300000, guid: 1447feb5fdae666438a6ab1939fea9df, type: 3}
+  rating: {fileID: -388719047, guid: a8b73d17e85f6a749ab76e39ee856890, type: 3}
+  description: "F1\xAE 2020 allows you to create your F1\xAE team for the very first
+    time and race alongside the official teams and drivers. Alternatively, challenge
+    your friends in new split-screen with casual race options for more relaxed racing.
+    Compete on 22 circuits, with current and classic content."
+  genre: RACING

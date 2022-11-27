@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 5
+  m_EditorClassIdentifier: 
+  title: Gmod
+  price: 16.99
+  art: {fileID: 21300000, guid: 034d3519a0d3e6e469e8b1bd82493c83, type: 3}
+  art2: {fileID: 21300000, guid: 424e0684f4774424398c0334d57c287a, type: 3}
+  rating: {fileID: -1418821693, guid: 53be70442d63efa428e1e2bb90d335c1, type: 3}
+  description: Garry's Mod is a physics sandbox. There aren't any predefined aims
+    or goals. We give you the tools and leave you to play.
+  genre: VR

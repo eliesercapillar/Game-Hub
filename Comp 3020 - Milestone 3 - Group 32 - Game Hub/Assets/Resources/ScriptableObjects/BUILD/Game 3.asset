@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 3
+  m_EditorClassIdentifier: 
+  title: Age Of Empires IV
+  price: 34.99
+  art: {fileID: 21300000, guid: f8b59eee1b86f1c458a3518c2368fb6e, type: 3}
+  art2: {fileID: 21300000, guid: 2690b5d48e679ed4a94782c685a89e0c, type: 3}
+  rating: {fileID: 1852388348, guid: 708df62a399cafc42b1e144478152202, type: 3}
+  description: 'Celebrating its first year of delighting millions of global players,
+    the award-winning and best-selling strategy franchise continues with Age of Empires
+    IV: Anniversary Edition, putting you at the center of even more epic historical
+    battles that shaped the world.'
+  genre: BUILD

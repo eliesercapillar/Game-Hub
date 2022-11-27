@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 2
+  m_EditorClassIdentifier: 
+  title: Cities skylines
+  price: 69.99
+  art: {fileID: 21300000, guid: eab57577e106e304b9bc15c6b5f1ac87, type: 3}
+  art2: {fileID: 21300000, guid: cde71e8efa960514eb0c8abd2e295f1f, type: 3}
+  rating: {fileID: -1418821693, guid: 53be70442d63efa428e1e2bb90d335c1, type: 3}
+  description: 'Cities: Skylines is a modern take on the classic city simulation.
+    The game introduces new game play elements to realize the thrill and hardships
+    of creating and maintaining a real city whilst expanding on some well - established
+    tropes of the cit y building experience.'
+  genre: VR

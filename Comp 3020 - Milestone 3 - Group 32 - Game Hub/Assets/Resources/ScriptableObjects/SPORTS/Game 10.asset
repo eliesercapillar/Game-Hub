@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 10
+  m_EditorClassIdentifier: 
+  title: Wwe 22
+  price: 59.99
+  art: {fileID: 21300000, guid: 6dd8e084ff20c1443a0b40f3c97e934d, type: 3}
+  art2: {fileID: 21300000, guid: e324b5dd572e4cd439507343ff347c40, type: 3}
+  rating: {fileID: -1726212673, guid: 35dc4063f25548f448d4d1939efd036d, type: 3}
+  description: 'REDESIGNED ENGINE. NEW CONTROLS. ALL THE FEATURES YOU CAN HANDLE.
+    Get ripped out of the stands and hit with complete control of the WWE Universe.
+    Hitting this hard has never been so easy. WWE 2K22: IT HITS DIFFERENT.'
+  genre: SPORTS

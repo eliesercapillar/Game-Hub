@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 8
+  m_EditorClassIdentifier: 
+  title: Rust
+  price: 19.99
+  art: {fileID: 21300000, guid: a1354bea4610fba4595a9d84fc09fa07, type: 3}
+  art2: {fileID: 21300000, guid: 5b817dfbf2e1d8446978524d612d9cfb, type: 3}
+  rating: {fileID: 679213721, guid: c8612f97afc1c3f42ab7a37aa1adbe50, type: 3}
+  description: "The only aim in Rust is to survive. Everything wants you to die -the
+    island\u2019s wildlife and other inhabitants, the environment, other survivors.
+    Do whatever it takes to last another night."
+  genre: BUILD

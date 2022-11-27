@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 2
+  m_EditorClassIdentifier: 
+  title: Devil May Cry 5
+  price: 26.79
+  art: {fileID: 21300000, guid: b065c81a4a88e2d41bd608bdc9964ef3, type: 3}
+  art2: {fileID: 21300000, guid: 54704e820f018ba4982b4e83b2c75dcd, type: 3}
+  rating: {fileID: -3638538, guid: c4463fcd66f3aa4459794dd80aa9df8b, type: 3}
+  description: The ultimate Devil Hunter is back in style, in the game action fans
+    have been waiting for.
+  genre: RTS

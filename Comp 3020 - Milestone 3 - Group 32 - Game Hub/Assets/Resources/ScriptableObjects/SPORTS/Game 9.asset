@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 9
+  m_EditorClassIdentifier: 
+  title: Steep
+  price: 10.99
+  art: {fileID: 21300000, guid: 688d1e5aaee16584d8285da2544973c0, type: 3}
+  art2: {fileID: 21300000, guid: a643be5941b4d9c4fbfc943c12926a63, type: 3}
+  rating: {fileID: -1797947698, guid: 3d413c23664c8e747899d8d017022270, type: 3}
+  description: Ride a massive open world across the Alps, where the powder is always
+    fresh and the run never ends. Defy and master the mountain alone or with friends
+    on skis, wingsuits, snowboards and paragliders. Record and share your best stunts.
+  genre: SPORTS

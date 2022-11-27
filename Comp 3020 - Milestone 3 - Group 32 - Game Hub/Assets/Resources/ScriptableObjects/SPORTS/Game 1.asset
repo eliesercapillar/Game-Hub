@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 1
+  m_EditorClassIdentifier: 
+  title: Fifa 19
+  price: 99.99
+  art: {fileID: 21300000, guid: 8870d28afc45ac0448ea3fd6e420a4ba, type: 3}
+  art2: {fileID: 21300000, guid: a876db17e44ab5b4cbcd6ef81eb0c70e, type: 3}
+  rating: {fileID: -717610131, guid: 54cc12735a7de0842ab958863d80c195, type: 3}
+  description: 'As with FIFA 18 , Cristiano Ronaldo featured as the cover athl ete
+    of the regular edition: however, following his unanticipated transfer from Real
+    Madrid to Juventus , new cover art was released. He also appeared with Neymar
+    in the cover of the Champions edition. [3] From February 2019, an updated version
+    featured Neymar, Kevin De Bruyne and Paulo Dybala on the cover of the regular
+    edition.'
+  genre: SPORTS
