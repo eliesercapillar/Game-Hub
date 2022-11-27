@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 5
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: 'Moto 19 '
+  price: 79.99
+  art: {fileID: 21300000, guid: a113b7e26f6a9ee4f811caa9888d15f6, type: 3}
+  art2: {fileID: 21300000, guid: d5b41b2b29647a5469668d6db5a18f31, type: 3}
+  rating: {fileID: -1726212673, guid: 35dc4063f25548f448d4d1939efd036d, type: 3}
+  description: "Race with official 2019 Championship riders! Have fun with the new
+    multiplayer experience and become Race Director. Challenge the new AI, take a
+    ride through the history of the MotoGP\u2122 and unleash your creativity with
+    the graphic editors."
+  genre: SPORTS

@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 6
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: 'Project Zomboid '
+  price: 49.99
+  art: {fileID: 21300000, guid: 7b00833ebea694a478db10a5b9cb052b, type: 3}
+  art2: {fileID: 21300000, guid: 942b8dc252347e142b104e9d60e61db1, type: 3}
+  rating: {fileID: 1492985406, guid: 412f2f08a31f60c4785200562255d623, type: 3}
+  description: 'Project Zomboid is the ultimate in zombie survival. Alone or in MP:
+    you loot, build, craft, fight, farm and fi sh in a struggle to survive. A hardcore
+    RPG skillset, a vast map, massively customisable sandbox and a cute tutorial
+    raccoon await the unwary. So how will you die? All it takes is a bite'
+  genre: VR

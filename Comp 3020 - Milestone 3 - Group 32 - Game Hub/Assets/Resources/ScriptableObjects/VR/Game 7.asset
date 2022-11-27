@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 7
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: Satisfactory
+  price: 39.99
+  art: {fileID: 21300000, guid: 7fc4f863fcef892418c79ff57b978773, type: 3}
+  art2: {fileID: 21300000, guid: 6458769dff8153543a4256c453f326d5, type: 3}
+  rating: {fileID: -388719047, guid: a8b73d17e85f6a749ab76e39ee856890, type: 3}
+  description: Satisfactory is a first - person open - world factory build ing game
+    with a dash of exploration and combat. Play alone or with friends, explore an
+    alien planet, create multi - story factories, and enter conveyor belt heaven!
+  genre: VR
