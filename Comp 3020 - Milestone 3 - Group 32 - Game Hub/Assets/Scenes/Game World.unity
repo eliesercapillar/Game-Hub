@@ -88500,7 +88500,7 @@ MonoBehaviour:
   - {fileID: 5554643983459308412, guid: 60f1a1d10b218374f92c1da2f4d880a2, type: 3}
   - {fileID: 5554643983459308412, guid: c3e081ac6ccd6c54db7bdb1017c7959e, type: 3}
   - {fileID: 5554643983459308412, guid: 19ef8453c2b6ef644ac9b389ebfbf67d, type: 3}
-  - {fileID: 5554643983459308412, guid: 370ef99ef2338f04584fde351614b78f, type: 3}
+  - {fileID: 5554643983459308412, guid: 494151201ca4d6748a1fc5de57cc7df6, type: 3}
   parent: {fileID: 82492646}
 --- !u!4 &1470589073 stripped
 Transform:
