@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
-  m_Name: Game 10
+  m_Name: Path of Exile
   m_EditorClassIdentifier: 
-  title: Witcher 3
-  price: 49.99
-  art: {fileID: 21300000, guid: 3f35f3ced27196b4b8af167919f76071, type: 3}
-  art2: {fileID: 21300000, guid: f1738990a248a3544aa9fce1841a0453, type: 3}
-  rating: {fileID: -1418821693, guid: 53be70442d63efa428e1e2bb90d335c1, type: 3}
+  title: Path of Exile
+  price: 19.99
+  art: {fileID: 21300000, guid: 6edfdd00c85b39345ba0742dd3f8b6f3, type: 3}
+  art2: {fileID: 21300000, guid: b0248ccc0a9a59d4cb37ed3b1683352d, type: 3}
+  rating: {fileID: 679213721, guid: c8612f97afc1c3f42ab7a37aa1adbe50, type: 3}
   description: You are an Exile, struggling to survive on the dark continent of Wraeclast,
     as you fight to earn power that will allow you to exact your revenge against
     those who wronged you. Created by hardcore gamers, Path of Exile is an online
     Action RPG set in a dark fantasy world.
+  genre: RPG

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
-  m_Name: Game 1
+  m_Name: Assassin's Creed Odyssey
   m_EditorClassIdentifier: 
   title: Assassin's Creed Odyssey
   price: 79.99
@@ -20,3 +20,4 @@ MonoBehaviour:
   description: "Choose your fate in Assassin's Creed\xAE Odyssey. From outcast to
     living legend, embark on an odyssey to uncover the secrets of your past and change
     the fate of Ancient Greece."
+  genre: RPG

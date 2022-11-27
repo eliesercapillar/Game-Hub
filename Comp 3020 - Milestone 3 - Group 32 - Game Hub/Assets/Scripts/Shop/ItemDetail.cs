@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class ItemDetail : MonoBehaviour
 {
@@ -14,8 +16,23 @@ public class ItemDetail : MonoBehaviour
 
     public ShopItemSO item;
 
+    void Awake()
+    {
+        string title = DataPersistency.getItemToShowDetailFor();
+
+        foreach (ShopItemSO so in Resources.FindObjectsOfTypeAll<ShopItemSO>())
+        {
+            if (title == so.title)
+            {
+                item = so;
+                return;
+            }
+        }
+    }
+
     void Start()
     {
+        Debug.Log("Populating Screen");
         populateScreen();
     }
 
@@ -30,6 +47,12 @@ public class ItemDetail : MonoBehaviour
 
     public void addToBag()
     {
+        Debug.Log("Added to bag");
+    }
 
+    public void goBack()
+    {
+        string genre = DataPersistency.getTheItemGenre();
+        SceneManager.LoadScene(genre + " SHOP MENU");
     }
 }

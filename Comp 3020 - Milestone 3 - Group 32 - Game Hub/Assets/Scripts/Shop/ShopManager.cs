@@ -18,18 +18,118 @@ public class ShopManager : MonoBehaviour
     public GameObject[] shopPanelsGO4;
     public GameObject[] shopPanelsGO5;
 
+    public TMP_InputField input;
+
     // Start is called before the first frame update
     void Start()
+    {
+        setAllActive();
+        for (int i = 0; i < shopItemsSO.Length; i++)
+        {
+            shopPanelsGO1[i].GetComponent<CardBehaviour>().setSO(shopItemsSO[i]);
+            shopPanelsGO2[i].GetComponent<CardBehaviour>().setSO(shopItemsSO[i]);
+            shopPanelsGO3[i].GetComponent<CardBehaviour>().setSO(shopItemsSO[i]);
+            shopPanelsGO4[i].GetComponent<CardBehaviour>().setSO(shopItemsSO[i]);
+            shopPanelsGO5[i].GetComponent<CardBehaviour>().setSO(shopItemsSO[i]);
+        }
+        LoadPanels();
+    }
+
+    public void Search()
+    {
+        string searchText = input.text;
+        int searchTxtLength = searchText.Length;
+
+        for (int i = 0; i < shopItemsSO.Length; i++)
+        {
+            if (shopPanels1[i].titleTxt.text.Length >= searchTxtLength)
+            {
+                if (searchText.ToLower() == shopPanels1[i].titleTxt.text.Substring(0, searchTxtLength).ToLower())
+                {
+                    shopPanelsGO1[i].SetActive(true);
+                }
+                else
+                {
+                    shopPanelsGO1[i].SetActive(false);
+                }
+            }
+        }
+
+        for (int i = 0; i < shopItemsSO.Length; i++)
+        {
+            if (shopPanels2[i].titleTxt.text.Length >= searchTxtLength)
+            {
+                if (searchText.ToLower() == shopPanels2[i].titleTxt.text.Substring(0, searchTxtLength).ToLower())
+                {
+                    shopPanelsGO2[i].SetActive(true);
+                }
+                else
+                {
+                    shopPanelsGO2[i].SetActive(false);
+                }
+            }
+        }
+
+        for (int i = 0; i < shopItemsSO.Length; i++)
+        {
+            if (shopPanels3[i].titleTxt.text.Length >= searchTxtLength)
+            {
+                if (searchText.ToLower() == shopPanels3[i].titleTxt.text.Substring(0, searchTxtLength).ToLower())
+                {
+                    shopPanelsGO3[i].SetActive(true);
+                }
+                else
+                {
+                    shopPanelsGO3[i].SetActive(false);
+                }
+            }
+        }
+
+        for (int i = 0; i < shopItemsSO.Length; i++)
+        {
+            if (shopPanels4[i].titleTxt.text.Length >= searchTxtLength)
+            {
+                if (searchText.ToLower() == shopPanels4[i].titleTxt.text.Substring(0, searchTxtLength).ToLower())
+                {
+                    shopPanelsGO4[i].SetActive(true);
+                }
+                else
+                {
+                    shopPanelsGO4[i].SetActive(false);
+                }
+            }
+        }
+
+        for (int i = 0; i < shopItemsSO.Length; i++)
+        {
+            if (shopPanels5[i].titleTxt.text.Length >= searchTxtLength)
+            {
+                if (searchText.ToLower() == shopPanels5[i].titleTxt.text.Substring(0, searchTxtLength).ToLower())
+                {
+                    shopPanelsGO5[i].SetActive(true);
+                }
+                else
+                {
+                    shopPanelsGO5[i].SetActive(false);
+                }
+            }
+        }
+    }
+
+    private void setAllActive()
     {
         for (int i = 0; i < shopItemsSO.Length; i++)
         {
             shopPanelsGO1[i].SetActive(true);
+
             shopPanelsGO2[i].SetActive(true);
+
             shopPanelsGO3[i].SetActive(true);
+
             shopPanelsGO4[i].SetActive(true);
+
             shopPanelsGO5[i].SetActive(true);
         }
-        LoadPanels();
     }
 
     public void LoadPanels()
@@ -56,10 +156,5 @@ public class ShopManager : MonoBehaviour
             shopPanels5[i].art.sprite = shopItemsSO[i].art;
             shopPanels5[i].rating.sprite = shopItemsSO[i].rating;
         }
-    }
-
-    public void addToBag()
-    {
-
     }
 }

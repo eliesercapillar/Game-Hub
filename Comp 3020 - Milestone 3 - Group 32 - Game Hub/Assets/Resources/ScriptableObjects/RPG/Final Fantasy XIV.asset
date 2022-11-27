@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
-  m_Name: Game 5
+  m_Name: Final Fantasy XIV
   m_EditorClassIdentifier: 
   title: Final Fantasy XIV
   price: 99.99
@@ -19,3 +19,4 @@ MonoBehaviour:
   rating: {fileID: 1492985406, guid: 412f2f08a31f60c4785200562255d623, type: 3}
   description: Take part in an epic and ever-changing FINAL FANTASY as you adventure
     and explore with friends from around the world
+  genre: RPG

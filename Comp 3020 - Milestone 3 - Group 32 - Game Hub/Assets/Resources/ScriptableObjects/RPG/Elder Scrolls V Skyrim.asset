@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
-  m_Name: Game 3
+  m_Name: Elder Scrolls V Skyrim
   m_EditorClassIdentifier: 
-  title: 'Elder Scrolls V: Skyrim'
+  title: Elder Scrolls V Skyrim
   price: 5.99
   art: {fileID: 21300000, guid: c547566e053a1fb43a1b49e757eae571, type: 3}
   art2: {fileID: 21300000, guid: fdacf9fef5a54be4c8e0f661bcf9b801, type: 3}
@@ -21,3 +21,4 @@ MonoBehaviour:
     brings the epic fantasy to life in stunning detail. The Special Edition includes
     the critically acclaimed game and add-ons with all-new features like remastered
     art and effects, volumetric god rays, dynamic depth of field, screen-space
+  genre: RPG

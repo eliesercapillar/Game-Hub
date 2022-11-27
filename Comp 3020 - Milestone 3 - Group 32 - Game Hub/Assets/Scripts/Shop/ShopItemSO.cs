@@ -11,4 +11,6 @@ public class ShopItemSO : ScriptableObject
     public Sprite art2;
     public Sprite rating;
     public string description;
+
+    public string genre;
 }

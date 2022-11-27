@@ -121,7 +121,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4194420183454307728}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3903878539434683896}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: moreDetails
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &885743761004279308
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +746,7 @@ GameObject:
   - component: {fileID: 7278766752082650786}
   - component: {fileID: 5415450121839309}
   - component: {fileID: -7849088354977889064}
+  - component: {fileID: 3903878539434683896}
   m_Layer: 5
   m_Name: Item Template
   m_TagString: Untagged
@@ -819,6 +832,18 @@ MonoBehaviour:
   titleTxt: {fileID: 3911418421658978411}
   art: {fileID: 3607349678710751952}
   rating: {fileID: 8550996333820526488}
+--- !u!114 &3903878539434683896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4912374790759440417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e121bd0bb4b9e479db11928fcc8c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7221585422006525397
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,7 +965,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2964405981721179884}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3903878539434683896}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: addToBag
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &9218782972143233980
 GameObject:
   m_ObjectHideFlags: 0

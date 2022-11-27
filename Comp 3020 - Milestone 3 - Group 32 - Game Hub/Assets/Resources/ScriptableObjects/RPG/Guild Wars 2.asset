@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
-  m_Name: Game 6
+  m_Name: Guild Wars 2
   m_EditorClassIdentifier: 
   title: Guild Wars 2
   price: 39.99
@@ -21,3 +21,4 @@ MonoBehaviour:
     action combat, deep character customization, and no subscription fee required.
     Choose from an arsenal of professions and weapons, explore a vast open world,
     compete in PVP modes and more. Join over 16 million players now!
+  genre: RPG

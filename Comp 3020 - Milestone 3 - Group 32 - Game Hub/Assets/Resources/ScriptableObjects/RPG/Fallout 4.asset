@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
-  m_Name: Game 4
+  m_Name: Fallout 4
   m_EditorClassIdentifier: 
   title: Fallout 4
   price: 0.99
@@ -20,3 +20,4 @@ MonoBehaviour:
   description: "Bethesda Game Studios, the award-winning creators of Fallout 3 and
     The Elder Scrolls V: Skyrim, welcome you to the world of Fallout 4 \u2013their
     most ambitious game ever, and the next generation of open-world gaming."
+  genre: RPG

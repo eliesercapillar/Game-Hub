@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
-  m_Name: Game 7
+  m_Name: Lost Ark
   m_EditorClassIdentifier: 
   title: Lost Ark
   price: 39.99
@@ -20,3 +20,4 @@ MonoBehaviour:
   description: 'Embark on an odyssey for the Lost Ark in a vast, vibrant world: explore
     new lands, seek out lost treasures, and test yourself in thrilling action combat
     in this action-packed free-to-play RPG.'
+  genre: RPG
