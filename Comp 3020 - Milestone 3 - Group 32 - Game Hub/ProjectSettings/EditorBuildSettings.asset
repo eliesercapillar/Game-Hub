@@ -27,12 +27,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Huts/ITEM DETAIL.unity
     guid: 5e5cb15cf7442834296dc0a3ba838bf8
   - enabled: 1
-    path: Assets/Scenes/Huts/ARCADE.unity
+    path: Assets/Scenes/Huts/ARCADE/ARCADE.unity
     guid: e6b1bdcb2a7f43441a794dad84d7a5cd
   - enabled: 1
-    path: Assets/Scenes/Huts/ARCADE SHOP MENU.unity
+    path: Assets/Scenes/Huts/ARCADE/ARCADE SHOP MENU.unity
     guid: e2920f4f461d4b043a9319e464bfa794
   - enabled: 1
     path: Assets/Scenes/BACKPACK.unity
     guid: c092db5e9e2b815468f01c1d2a0e7a74
+  - enabled: 1
+    path: Assets/Scenes/Wizard Search.unity
+    guid: a2e14215efc1a904ea4d6db5767a20c2
+  - enabled: 1
+    path: Assets/Scenes/Huts/BUILD/BUILD.unity
+    guid: e4cef9996e98f3944862ff5995b3b563
+  - enabled: 1
+    path: Assets/Scenes/Huts/BUILD/BUILD SHOP MENU.unity
+    guid: d8b9c11117cd1da43968a9c63ec82923
   m_configObjects: {}
