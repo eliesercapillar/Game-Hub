@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Huts/RPG.unity
     guid: 2fa2a81cfcdc2164aab688056c232362
+  - enabled: 1
+    path: Assets/Scenes/Huts/RPG SHOP MENU.unity
+    guid: dfad6bf639e0b2b45992522e9c3d5677
   m_configObjects: {}

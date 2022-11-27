@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
+  m_Name: Game 10
+  m_EditorClassIdentifier: 
+  title: Witcher 3
+  price: 49.99
+  art: {fileID: 21300000, guid: 3f35f3ced27196b4b8af167919f76071, type: 3}
+  art2: {fileID: 21300000, guid: f1738990a248a3544aa9fce1841a0453, type: 3}
+  rating: {fileID: -1418821693, guid: 53be70442d63efa428e1e2bb90d335c1, type: 3}
+  description: You are an Exile, struggling to survive on the dark continent of Wraeclast,
+    as you fight to earn power that will allow you to exact your revenge against
+    those who wronged you. Created by hardcore gamers, Path of Exile is an online
+    Action RPG set in a dark fantasy world.

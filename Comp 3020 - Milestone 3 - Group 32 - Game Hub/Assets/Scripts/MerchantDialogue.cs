@@ -10,6 +10,8 @@ public class MerchantDialogue : MonoBehaviour
     [SerializeField] private float textSpeed;
     [SerializeField] private sceneloader sl;
 
+    [SerializeField] private string destination;
+
     private int index;
     void Start()
     {
@@ -58,7 +60,7 @@ public class MerchantDialogue : MonoBehaviour
         }
         else
         {
-            sl.loadScene("RPG SHOP");
+            sl.loadScene(destination);
             //Destroy(this.gameObject);
         }
     }
