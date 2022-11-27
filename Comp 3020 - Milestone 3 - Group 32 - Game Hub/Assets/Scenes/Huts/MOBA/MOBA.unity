@@ -539,7 +539,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e5c5cf234949b2438ddc30a4fb49e07, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c53afd90c1d51874bad94037875a7ccd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -785,7 +785,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: BUILD
+          m_StringArgument: MOBA
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1064114735
@@ -1426,9 +1426,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Build Merchant
-
-'
+  m_text: MOBA Merchant
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1649,7 +1647,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6d7bed8b774c435439971e8ba7f2237a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a2a96b4fb41b5184b9920e0cf4e1a513, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1713,12 +1711,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 5554643983482953317}
   lines:
-  - Huh? What you doing here? Can't you see I'm closed for the day?
-  - LEAVE!!!!!!!
-  - Okay fine you can look through my wares, just be quick.
+  - ....
+  - ..............
+  - ...................
+  - ...................................
+  - buy something.
   textSpeed: 0.05
   sl: {fileID: 1309839541}
-  destination: BUILD SHOP MENU
+  destination: RPG SHOP MENU
 --- !u!1 &5554643983355567845
 GameObject:
   m_ObjectHideFlags: 0

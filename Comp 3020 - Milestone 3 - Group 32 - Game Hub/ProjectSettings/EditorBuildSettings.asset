@@ -44,4 +44,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Huts/BUILD/BUILD SHOP MENU.unity
     guid: d8b9c11117cd1da43968a9c63ec82923
+  - enabled: 1
+    path: Assets/Scenes/Huts/MOBA/MOBA SHOP MENU.unity
+    guid: 1bd09f2932c259a40a23df979b1358f3
+  - enabled: 1
+    path: Assets/Scenes/Huts/MOBA/MOBA.unity
+    guid: 28a1e1aa1ceada3458f7180e90493c03
+  - enabled: 1
+    path: Assets/Scenes/Huts/FPS/FPS.unity
+    guid: 1949778401d395344b261bef8642b832
+  - enabled: 1
+    path: Assets/Scenes/Huts/FPS/FPS SHOP MENU.unity
+    guid: 710e1b84c4e0d804ea35f44a0732ffa6
   m_configObjects: {}
