@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 5
   m_EditorClassIdentifier: 
-  title: 
+  title: Modern Warfare 2 2022
   price: 0
   art: {fileID: 0}
   art2: {fileID: 0}
