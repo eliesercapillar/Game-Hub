@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 3
   m_EditorClassIdentifier: 
-  title: 
-  price: 0
-  art: {fileID: 0}
-  art2: {fileID: 0}
-  rating: {fileID: 0}
-  description: 
-  genre: 
+  title: Golf with friends
+  price: 14.99
+  art: {fileID: 21300000, guid: 71e959d4dacd9444ca7674e1672a45a8, type: 3}
+  art2: {fileID: 21300000, guid: 0a98f3b2b18bd5d4cbc2be2009171024, type: 3}
+  rating: {fileID: 679213721, guid: c8612f97afc1c3f42ab7a37aa1adbe50, type: 3}
+  description: Why have friends if not to play Golf... With Your Friends! Nothing
+    is out of bounds as you take on courses filled with fast paced, exciting, simultaneous
+    mini golf for up to 12 players!
+  genre: SPORTS
