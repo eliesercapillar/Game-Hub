@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 3
   m_EditorClassIdentifier: 
-  title: 'Call of Duty: Black Ops III'
+  title: Black Ops III
   price: 49.99
   art: {fileID: 21300000, guid: e1c4cf58f20d4cc428289202a9f7d50a, type: 3}
   art2: {fileID: 21300000, guid: f645325a6ba0f05419de2aa6851550ae, type: 3}
