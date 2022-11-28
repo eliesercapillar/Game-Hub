@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1399579369b8ede4d966e316e4e5d521, type: 3}
   m_Name: Game 5
   m_EditorClassIdentifier: 
-  title: Modern Warfare 2 2022
+  title: 'Call of Duty: Modern Warfare 2 2022'
   price: 69.99
   art: {fileID: 21300000, guid: 1db52528dd9fc4b4089e12f69f04f212, type: 3}
   art2: {fileID: 21300000, guid: 8bc7eec7eb6a45a4a855f49328483163, type: 3}

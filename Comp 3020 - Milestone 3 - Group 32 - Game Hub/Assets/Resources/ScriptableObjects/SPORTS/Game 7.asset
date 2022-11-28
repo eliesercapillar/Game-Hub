@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Nhl 20
   price: 59.99
-  art: {fileID: 21300000, guid: cc4cb82a9903a6d449bb7e50e08b1949, type: 3}
-  art2: {fileID: 21300000, guid: e582945fc5c90e948be7154e17dab562, type: 3}
+  art: {fileID: 21300000, guid: 43756fdf7c0cfb14286db6dc5f0fdb86, type: 3}
+  art2: {fileID: 21300000, guid: 6d5ab1427f91dd64a9ce091ba7243173, type: 3}
   rating: {fileID: 679213721, guid: c8612f97afc1c3f42ab7a37aa1adbe50, type: 3}
   description: NHL 20 is an ice hockey simulation video game d eveloped by EA Vancouver
     and published by EA Sports. It was released globally on Xbox One and PlayStation

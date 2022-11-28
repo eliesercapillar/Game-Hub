@@ -24,7 +24,11 @@ public class Backpack : MonoBehaviour
 
     public void addToBag(ShopItemSO so)
     {
-        SOs.Add(so);
+        if (!SOs.Contains(so))
+        {
+            SOs.Add(so);
+        }
+       
     }
 
     public List<ShopItemSO> getItems()
