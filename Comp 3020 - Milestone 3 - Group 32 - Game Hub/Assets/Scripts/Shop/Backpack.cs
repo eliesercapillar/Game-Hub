@@ -27,6 +27,18 @@ public class Backpack : MonoBehaviour
         SOs.Add(so);
     }
 
+    public void removeFromBag(string s)
+    {
+        foreach (ShopItemSO shop in SOs)
+        {
+            if (shop.title == s)
+            {
+                SOs.Remove(shop);
+                return;
+            }
+        }
+    }
+
     public List<ShopItemSO> getItems()
     {
         return SOs;

@@ -16,6 +16,7 @@ public class ItemDetail : MonoBehaviour
     public TMP_Text description;
 
     public ShopItemSO item;
+    public GameObject AddedImg;
 
     public SOso allSOs;
 
@@ -58,6 +59,7 @@ public class ItemDetail : MonoBehaviour
     public void addToBag()
     {
         Debug.Log("Added to backpack");
+        StartCoroutine(showAddIMG());
         Backpack.instance.addToBag(item);
     }
 
@@ -65,5 +67,12 @@ public class ItemDetail : MonoBehaviour
     {
         string genre = DataPersistency.getTheItemGenre();
         SceneManager.LoadScene(genre + " SHOP MENU");
+    }
+
+    private IEnumerator showAddIMG()
+    {
+        AddedImg.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        AddedImg.SetActive(false);
     }
 }

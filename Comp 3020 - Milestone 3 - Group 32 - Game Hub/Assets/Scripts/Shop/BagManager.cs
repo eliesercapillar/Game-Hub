@@ -90,4 +90,19 @@ public class BagManager : MonoBehaviour
         yield return new WaitForSeconds(2f);
         thankYou.SetActive(false);
     }
+
+    public void removeItemFromBag(GameObject go)
+    {
+        BagTemplate bt = go.GetComponent<BagTemplate>();
+
+        backpack.removeFromBag(bt.titleTxt.text);
+        foreach (GameObject g in GOs) 
+        {
+            Destroy(g);
+        }
+        Destroy(go);
+
+        total = 0;
+        displayBag();
+    }
 }

@@ -18,6 +18,8 @@ public class ShopManager : MonoBehaviour
     public GameObject[] shopPanelsGO4;
     public GameObject[] shopPanelsGO5;
 
+    public GameObject addedIMG;
+
     public TMP_InputField input;
 
     // Start is called before the first frame update
@@ -156,5 +158,10 @@ public class ShopManager : MonoBehaviour
             shopPanels5[i].art.sprite = shopItemsSO[i].art;
             shopPanels5[i].rating.sprite = shopItemsSO[i].rating;
         }
+    }
+
+    public void showMSG(bool b)
+    {
+        addedIMG.SetActive(b);
     }
 }
