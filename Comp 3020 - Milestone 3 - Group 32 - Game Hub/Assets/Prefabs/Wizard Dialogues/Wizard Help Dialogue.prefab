@@ -793,6 +793,7 @@ GameObject:
   - component: {fileID: 7130941818556664195}
   - component: {fileID: 6617139143686250976}
   - component: {fileID: 3164728083583359939}
+  - component: {fileID: 71781650100959740}
   m_Layer: 5
   m_Name: e
   m_TagString: Untagged
@@ -903,10 +904,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5554643983459308412}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 71781650100959740}
+        m_TargetAssemblyTypeName: CloseDialogue, Assembly-CSharp
+        m_MethodName: pressBtn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -915,3 +916,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &71781650100959740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5899335196092247317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b7db00b605329840b4dd7f2c24703bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wiz: {fileID: 0}
+  parent: {fileID: 5554643983459308412}

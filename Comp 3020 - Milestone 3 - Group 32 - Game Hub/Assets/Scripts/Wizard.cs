@@ -11,7 +11,7 @@ public class Wizard : MonoBehaviour
 
     private GameObject currentDialogue;
 
-    private int nextDialogue = -1;
+    public int nextDialogue = -1;
 
     void Awake()
     {

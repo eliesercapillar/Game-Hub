@@ -12,6 +12,7 @@ public class TeleportPlayer : MonoBehaviour
 
     private Wizard wizard;
     private Transform player;
+    private AudioSource audio;
 
     private string[] hutNames = {"Arcade", "Build", "RPG", "FPS", "MOBA", "RTS", "Puzzle", "Racing", "Sports", "VR"};
     private Vector3[] hutCoords = {new Vector3(-9, 1, 0), new Vector3(9, 1, 0), new Vector3(-19, -10, 0),
@@ -23,6 +24,7 @@ public class TeleportPlayer : MonoBehaviour
     {
         player = GameObject.Find("Player").GetComponent<Transform>();
         wizard = GameObject.FindGameObjectWithTag("Wizard").GetComponent<Wizard>();
+        audio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -55,15 +57,21 @@ public class TeleportPlayer : MonoBehaviour
 
     private void telePlayer(int index)
     {
+        StartCoroutine(playAudio());
         Debug.Log("Teleporting Player");
         player.position = hutCoords[index];
         wizard.setNextDialogue(7);
-        Destroy(this.gameObject);
     }
 
     public void cancel()
     {
         wizard.setNextDialogue(8);
+        Destroy(this.gameObject);
+    }
+    private IEnumerator playAudio()
+    {
+        audio.Play();
+        yield return new WaitForSeconds(1.5f);
         Destroy(this.gameObject);
     }
 }

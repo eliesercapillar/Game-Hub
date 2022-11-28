@@ -7,6 +7,7 @@ public class WizardSpawner : MonoBehaviour
 {
     private DialogueManager dm;
     private Transform player;
+    private AudioSource audio;
 
     [SerializeField] private GameObject wizard;
 
@@ -14,6 +15,7 @@ public class WizardSpawner : MonoBehaviour
     {
         dm = GameObject.Find("Dialogue Manager").GetComponent<DialogueManager>();
         player = GameObject.Find("Player").GetComponent<Transform>();
+        audio = GetComponent<AudioSource>();
     }
 
     public void attemptSpawn()
@@ -89,6 +91,7 @@ public class WizardSpawner : MonoBehaviour
     private void spawnWizard(Vector3 spawnCoords)
     {
         Instantiate(wizard, spawnCoords, Quaternion.identity);
+        audio.Play();
         player.gameObject.GetComponent<Cainos.PixelArtTopDown_Basic.TopDownCharacterController>().isMovable(false);
     }
 }

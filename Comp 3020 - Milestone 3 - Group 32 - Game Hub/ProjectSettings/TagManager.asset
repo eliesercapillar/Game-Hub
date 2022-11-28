@@ -9,6 +9,8 @@ TagManager:
   - Minimap
   - Backpack
   - Shop
+  - BOUGHT
+  - Music
   layers:
   - Default
   - TransparentFX
