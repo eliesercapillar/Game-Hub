@@ -6,10 +6,14 @@ using System;
 
 public class sceneloader : MonoBehaviour
 {
-
     private void Awake()
     {
         Screen.SetResolution(1280, 720, true);
+    }
+
+    void Start()
+    {
+        MusicPlayer.instance.PlayMusic();
     }
 
     public void loadScene(string sceneName)

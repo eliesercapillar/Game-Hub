@@ -9,15 +9,20 @@ public class HutDoor : MonoBehaviour
     [SerializeField] private Cainos.PixelArtTopDown_Basic.TopDownCharacterController controller;
     [SerializeField] private int hutIndex;
 
+    private AudioSource audio;
+
     private bool inTrigger = false;
+
+    private void Awake()
+    {
+        audio = GetComponent<AudioSource>();
+    }
 
     void Update()
     {
         if (inTrigger && Input.GetKeyDown(KeyCode.Space))
         {
-            controller.recordPlayerCoords();
-            DataPersistency.setHutIndex(hutIndex);
-            Navigation.enterHut(hutGenre);
+            StartCoroutine(waitForAnim());
         }
     }
 
@@ -38,5 +43,14 @@ public class HutDoor : MonoBehaviour
             inTrigger = false;
             prompt.SetActive(false);
         }
+    }
+
+    private IEnumerator waitForAnim()
+    {
+        audio.Play();
+        yield return new WaitForSeconds(0.65f);
+        controller.recordPlayerCoords();
+        DataPersistency.setHutIndex(hutIndex);
+        Navigation.enterHut(hutGenre);
     }
 }

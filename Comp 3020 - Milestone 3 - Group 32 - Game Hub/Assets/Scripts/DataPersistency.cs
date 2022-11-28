@@ -96,4 +96,14 @@ public static class DataPersistency
     {
         return PlayerPrefs.GetString("PriorBPScene");
     }
+
+    public static void setcurrentlyInGameWorld(bool b)
+    {
+        PlayerPrefs.SetInt("currentlyInGameWorld", (b ? 1 : 0));
+    }
+
+    public static bool getcurrentlyInGameWorld()
+    {
+        return PlayerPrefs.GetInt("currentlyInGameWorld") == 1;
+    }
 }

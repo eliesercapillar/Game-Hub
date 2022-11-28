@@ -7,6 +7,7 @@ namespace Cainos.PixelArtTopDown_Basic
     public class TopDownCharacterController : MonoBehaviour
     {
         public float speed;
+        private AudioSource footsteps;
 
         private Animator animator;
         private Transform playerTransform;
@@ -17,6 +18,7 @@ namespace Cainos.PixelArtTopDown_Basic
         private void Start()
         {
             animator = GetComponent<Animator>();
+            footsteps = this.GetComponent<AudioSource>();
             playerTransform = GetComponent<Transform>();
             cam = Camera.main;
             if (DataPersistency.hasStoredPlayerCoords())
@@ -55,15 +57,14 @@ namespace Cainos.PixelArtTopDown_Basic
 
                 dir.Normalize();
 
-                //Debug.Log("BAUDY MOVIN");
                 GetComponent<Rigidbody2D>().velocity = speed * dir;
                 animator.SetBool("isMoving", (dir.magnitude > 0));
+
+                if (dir.magnitude > 0 && !footsteps.isPlaying)
+                {
+                    footsteps.Play();
+                }
             }
-            /*else
-            {
-                GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
-                animator.SetBool("isMoving", (dir.magnitude > 0));
-            }*/
         }
 
         public void recordPlayerCoords()
