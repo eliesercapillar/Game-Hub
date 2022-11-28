@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 public class CardBehaviour : MonoBehaviour
 {
     public ShopItemSO item;
+    public ShopManager sm;
+
+    void Awake()
+    {
+        sm = GameObject.FindGameObjectWithTag("Shop").GetComponent<ShopManager>();
+    }
 
     public void moreDetails()
     {
@@ -18,10 +24,18 @@ public class CardBehaviour : MonoBehaviour
     public void addToBag()
     {
         Backpack.instance.addToBag(item);
+        StartCoroutine(showBoughtMSG());
     }
 
     public void setSO(ShopItemSO so)
     {
         item = so;
+    }
+
+    private IEnumerator showBoughtMSG()
+    {
+        sm.showMSG(true);
+        yield return new WaitForSeconds(1f);
+        sm.showMSG(false);
     }
 }

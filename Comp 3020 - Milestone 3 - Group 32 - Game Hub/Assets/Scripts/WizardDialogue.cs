@@ -18,11 +18,6 @@ public class WizardDialogue : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            this.gameObject.SetActive(false);
-        }
-
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0))
         {
             if (textComponent.text == lines[index])

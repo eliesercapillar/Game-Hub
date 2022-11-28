@@ -8,6 +8,7 @@ TagManager:
   - summonWizardBtn
   - Minimap
   - Backpack
+  - Shop
   layers:
   - Default
   - TransparentFX
